@@ -10,3 +10,4 @@ try:
     multiplication_table(num)
 except ValueError:
     print("Please enter a valid integer.")
+    
