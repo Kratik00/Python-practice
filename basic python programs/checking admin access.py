@@ -2,7 +2,7 @@
 #Taking input from user
 try:
     username = input("Enter your username: ")
-    if username == "john" or "smith":
+    if username == "john" or username == "smith":
         print("Authorised Access.")
     else:
         print("Unauthorised access.")
