@@ -8,4 +8,4 @@ try:
     else:
         print("This character is constant.")
 except ValueError:
-    print("Please enter a valid character.")
+    print("Please enter a valid character.") 
