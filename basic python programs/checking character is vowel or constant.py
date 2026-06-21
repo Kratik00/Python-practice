@@ -4,8 +4,8 @@ try:
     character = input("Enter a character: ")
     vowels = ['a', 'e', 'i', 'o', 'u']
     if character in vowels:
-        print("This character is vowel.")
+        print("This character is a vowel.")
     else:
-        print("This character is constant.")
+        print("This character is a constant.")
 except ValueError:
     print("Please enter a valid character.") 
