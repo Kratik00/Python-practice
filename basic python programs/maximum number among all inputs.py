@@ -12,3 +12,4 @@ try:
     print(f"The maximum number among all the inputs is {max}.")
 except ValueError:
     print("Please enter valid positive integers.")
+#And for negative numbers we simply assign first negative value as maximum
